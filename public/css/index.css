@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+    --main-orange: #005bff;
+    --main-blue: #e2e7ff;
+    --blue-jeans: #031d5b;
+}
+
+/* ----  #8f00ff #5271ff #5231ff---- */
+
+.text-main-orange {
+    color: var(--main-orange);
+}
+.text-main-blue {
+    color: var(--main-blue);
+}
+.text-blue-jeans {
+    color: var(--blue-jeans);
+}
+.bg-main-orange {
+    background-color: var(--main-orange);
+}
+.bg-main-blue {
+    background-color: var(--main-blue);
+}
+.bg-blue-jeans {
+    background-color: var(--blue-jeans);
+}
+
+body,
+* {
+    font-family: "Roboto", sans-serif;
+}
+.hero h1.main-text{
+    color: #e2e7ff;
+}
+/*Start Button Daftar*/
+.button {
+    box-sizing: border-box;
+    width: 80px;
+    background-color: #7eabff;
+    border-radius: 0.6em;
+    color: white;
+}
+#button {
+    color: white;
+    font-weight: 1000;
+    margin: 0 1rem;
+}
+.button:hover,
+.button:focus {
+    color: #fff;
+    outline: 0;
+}
+.daftar {
+    border-color: #3498db;
+    color: #fff;
+    transition: all 150ms ease-in-out;
+}
+.daftar:hover {
+    box-shadow: 0 0 1px 0 #fff inset, 0 0 1px 1px #fff;
+}
+/*End Button Registrasi*/
+.navbar .navbar-brand span {
+    font-size: 26px;
+    font-weight: 1000;
+    padding: auto;
+    margin: 10px;
+}
+
+#nav {
+    color: white;
+    font-weight: 1000;
+    margin: 0 1rem;
+}
+#nav:hover {
+    color: aqua;
+}
+
+#nav-main {
+    background-color: var(--main-orange);
+}
+
+.hero {
+    margin-top: -75px;
+    background-color: var(--main-orange);
+    width: 100%;
+}
+
+input.form-control {
+    box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    height: 62px;
+    font-weight: bold;
+    padding: 1rem 26px;
+    font-size: 20px;
+}
+input.form-control::placeholder {
+    color: #cdcdcd;
+    opacity: 1;
+}
+input.form-control::-ms-input-placeholder {
+    color: #cdcdcd;
+}
+
+.btn.btn-primary {
+    background-color: var(--main-blue);
+    padding: 0 18px;
+    height: 62px;
+    border-radius: 20px;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.card.card-feature {
+    border-radius: 20px;
+    min-height: 100px;
+    margin-top: -128px;
+}
+
+h2.text-heading {
+    position: relative;
+    padding: 20px 0;
+    margin-bottom: 1.5rem;
+}
+h2.text-heading:before {
+    position: absolute;
+    content: "";
+    border-bottom: 5px solid var(--main-orange);
+    width: 55%;
+    left: 0;
+    bottom: 0;
+}
+
+h2.text-heading.test:before {
+    width: 75%;
+}
+.section-taste-premium {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+}
+
+.canvas {
+    position: relative;
+    margin: 0 auto;
+}
+.canvas .circle {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--main-orange);
+    border-radius: 1000px;
+    z-index: 1;
+}
+.canvas .object {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+/*
+
+footer {
+  margin-top: 2rem;
+  border-top: 2px solid #ececec;
+  padding: 2rem;
+  background-color: #005bff;
+}
+*/
+/* desktop */
+@media only screen and (min-width: 768px) {
+    .hero h1.main-text {
+        font-size: 2.5rem;
+    }
+    /*#hero_ {
+    margin-top: -200px;
+  }*/
+    .hero {
+        height: 920px;
+    }
+
+    #tombol {
+        margin-bottom: -20px;
+    }
+    .canvas {
+        width: 490px;
+        height: 490px;
+    }
+    #judulbenefit {
+        margin-top: 20px;
+    }
+
+    section.section-auto-flip:nth-child(odd) .row [class^="col"]:nth-child(1) {
+        order: 1;
+    }
+    section.section-auto-flip:nth-child(odd) .row [class^="col"]:nth-child(2) {
+        text-align: left !important;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 767px) {
+    .section-taste-premium .row [class^="col"]:nth-child(2) {
+        margin-top: 6rem;
+    }
+    #judulcard {
+        font-size: 24px;
+    }
+    #judulbenefit {
+        margin-top: 90px;
+    }
+    #produk {
+        margin-left: -313px;
+    }
+    #dropdown {
+        margin-left: -180px;
+        margin-top: -160px;
+        /*background-color: var(--main-orange);*/
+    }
+    /*#dropdown_item {
+    color: white;
+  }*/
+
+    .hero h1.main-text {
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .hero {
+        padding-bottom: 175px;
+        margin-top: -1px;
+        /*height: 950px; */
+    }
+    .canvas {
+        width: 100%;
+        height: 100%;
+    }
+    .canvas .circle {
+        position: relative;
+        margin: 0 auto;
+        width: 290px;
+        height: 290px;
+    }
+    #tombol {
+        margin-bottom: -20px;
+    }
+
+    .clock .time {
+        font-size: 24px;
+        margin: 0 auto;
+    }
+
+    .clock .date {
+        font-size: 12px;
+        margin: 0 auto;
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+/* BWA Footer */
+.footer-2-3 .list-space {
+    margin-bottom: 1.25rem;
+}
+
+.footer-2-3 .footer-text-title {
+    font: 600 1.5rem Poppins, sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+.footer-2-3 .list-menu {
+    color: #707092;
+    text-decoration: none !important;
+}
+
+.footer-2-3 .list-menu:hover {
+    color: #ffffff;
+}
+
+.footer-2-3 hr.hr {
+    margin: 0;
+    border: 0;
+    border-top: 1px solid rgba(46, 46, 90, 1);
+}
+
+.footer-2-3 .border-color {
+    color: #707092;
+}
+
+.footer-2-3 .footer-link {
+    color: #707092;
+}
+
+.footer-2-3 .footer-link:hover {
+    color: #ffffff;
+}
+
+.footer-2-3 .social-media-c:hover circle,
+.footer-2-3 .social-media-p:hover path {
+    fill: #ffffff;
+}
+
+.footer-2-3 .footer-info-space {
+    padding-top: 3rem;
+}
+
+.footer-2-3 .list-footer {
+    padding: 5rem 1rem 3rem 1rem;
+}
+
+.footer-2-3 .info-footer {
+    padding: 0 1rem 3rem;
+}
+
+@media (min-width: 576px) {
+    .footer-2-3 .list-footer {
+        padding: 5rem 2rem 3rem 2rem;
+    }
+
+    .footer-2-3 .info-footer {
+        padding: 0 2rem 3rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer-2-3 .list-footer {
+        padding: 5rem 4rem 6rem 4rem;
+    }
+
+    .footer-2-3 .info-footer {
+        padding: 0 4rem 3rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer-2-3 .list-footer {
+        padding: 5rem 6rem 6rem 6rem;
+    }
+
+    .footer-2-3 .info-footer {
+        padding: 0 6rem 3rem;
+    }
+}

@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+    --main-orange: #005bff;
+    --main-blue: #e2e7ff;
+    --blue-jeans: #031d5b;
+}
+
+/* ----  #8f00ff #5271ff #5231ff---- */
+
+.text-main-orange {
+    color: var(--main-orange);
+}
+.text-main-blue {
+    color: var(--main-blue);
+}
+.text-blue-jeans {
+    color: var(--blue-jeans);
+} 
+.bg-main-orange {
+    background-color: var(--main-orange);
+}
+.bg-main-blue {
+    background-color: var(--main-blue);
+}
+.bg-blue-jeans {
+    background-color: var(--blue-jeans);
+}
+
+body,
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+#button {
+    border-radius: 0.6em;
+}
+.navbar .navbar-brand span {
+    font-size: 26px;
+    font-weight: 1000;
+    padding: auto;
+    margin: 10px;
+}
+
+#nav {
+    color: white;
+    font-weight: 1000;
+    margin: 0 1rem;
+}
+#nav:hover {
+    color: aqua;
+}
+
+#nav-main {
+    background-color: var(--main-orange);
+}
+.card {
+    box-shadow: 0px 4px 8px 0px #757575;
+    border-radius: 0px;
+}
+
+.card2 {
+    margin: 0px 40px;
+}
+
+.hero {
+    margin-top: -75px;
+
+    background-color: var(--main-blue);
+    width: 100%;
+}
+
+#img-login {
+    height: 400px;
+    width: 650px;
+}
+
+#card {
+    box-sizing: border-box;
+    border-radius: 0.6em;
+}
+
+#show,
+#hide {
+    border-radius: 0.6em;
+    letter-spacing: 0.1px;
+}
+
+#show:hover,
+#hide:hover {
+    color: #fff;
+    outline: 0;
+}
+
+/* desktop */
+@media only screen and (min-width: 768px) {
+    .hero h1.main-text {
+        font-size: 3rem;
+    }
+
+    .hero {
+        height: 728px;
+    }
+
+    #button {
+        width: 515px;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 767px) {
+    .hero h1.main-text {
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .hero {
+        padding-bottom: 175px;
+        margin-top: -1px;
+        height: 750px;
+    }
+    #img-login {
+        margin-top: 250px;
+        width: 350px;
+        height: 250px;
+    }
+
+    #button {
+        width: 80%;
+    }
+}

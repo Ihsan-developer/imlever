@@ -1,0 +1,4 @@
+db name = id18104743_db_latihan
+db username = id18104743_imlever
+db host = localhost
+password = 9|FHu$Dc%w+~w3H}

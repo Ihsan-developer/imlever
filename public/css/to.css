@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+    --main-orange: #005bff;
+    --main-blue: #e2e7ff;
+    --blue-jeans: #031d5b;
+}
+#to {
+    background-color: #e2e7ff;
+    
+}
+.navbar .navbar-brand span {
+    font-size: 26px;
+    font-weight: 900;
+    padding: auto;
+    margin: 10px;
+    font-family: "Roboto", sans-serif;
+} 
+
+#nav {
+    color: white;
+    font-weight: 1000;
+    margin: 0 1rem;
+}
+#nav:hover {
+    color: aqua;
+}
+
+#nav-main {
+    background-color: var(--main-orange);
+}
+
+body {
+    font-size: 20px;
+    color: #333;
+    font-weight: 300;
+    text-align: center;
+    background-color: #e2e7ff;
+}
+h1 {
+    font-weight: 300;
+    margin: 0px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #444;
+    color: #fff;
+}
+.question {
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+.answers {
+    margin-bottom: 20px;
+    text-align: left;
+    display: inline-block;
+    width: 50%;
+    height: 25%;
+}
+.answers label {
+    display: block;
+    margin-bottom: 10px;
+}
+.row {
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+#indikasiSoal,
+#indikasiSoal1,
+#indikasiSoal2,
+#indikasiSoal3 {
+    margin-left: -2px;
+    color: black;
+}
+
+
+#jawaban {
+    display: flex;
+    
+    border: 0.15rem solid rgba(218, 218, 218, 0.856);
+    background-color: white;
+    margin-left: 0px;
+}
+#jawaban:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(218, 218, 218, 0.856);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+#jarakOpsi {
+    margin-left: 5px;
+}
+#radio {
+    background-color: whitesmoke;
+}
+button {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    padding: 0.75em;
+    cursor: pointer;
+    box-sizing: border-box;
+
+    border-style: inset;
+    border-color: black;
+    background-color: white;
+    border-radius: 0.6em;
+    color: black;
+}
+button:hover {
+    background-color: #38a;
+}
+
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+    border-style: solid;
+    background-color: whitesmoke;
+}
+.active-slide {
+    opacity: 1;
+    z-index: 2;
+}
+.quiz-container {
+    position: relative;
+    
+    margin-top: 40px;
+    margin-left: 20px;
+    
+}
+#quiz {
+    font-family: "Times New Roman", Times, serif;
+}
+#row {
+    padding-bottom: -5%;
+    
+}
+
+#coba {
+    margin-top: 50px;
+}
+
+/*#results{
+    color: #e2e7ff;
+    background-color: #e2e7ff;
+}*/
+
+/* desktop */
+@media only screen and (min-width: 768px) {
+    .quiz-container {
+        height: 400px;
+    }
+    #quiz {
+        height: 400px;
+    }
+    button, input, optgroup, select, textarea{
+        background-color:#e2e7ff;
+        color: black;
+    }
+    input[type="text"], textarea{
+        border: none;
+        color: #e2e7ff;
+        background-color: #e2e7ff;
+    }
+    input[type="text"]:focus, textarea:focus{
+        outline: none;
+        color: #e2e7ff;
+        background-color: #e2e7ff;
+    }
+    #previous,
+    #next,
+    #submit,
+    #done {
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        padding: 0.75em;
+        cursor: pointer;
+        box-sizing: border-box;
+        margin-top: 30px;
+        border-style: inset;
+        border-color: gray;
+        background-color: #005bff;
+        border-radius: 0.6em;
+        color: white;
+    }
+    #pendorong {
+        margin-top: 8px;
+    }
+    #demo {
+        margin-left: 70px;
+        box-sizing: border-box;
+        border-style: solid;
+        border-color: #000;
+        background-color: whitesmoke;
+        border-radius: 0.3em;
+        color: #000;
+        padding: 0.5em;
+    }
+    .question {
+        font-size: 1.15rem;
+    }
+    #jawaban {
+        font-size: 1.0rem;
+        margin-bottom: 0.5rem;
+    }
+    #slide {
+        height: 400px;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 767px) {
+ 
+    button, input, optgroup, select, textarea{
+        background-color:#e2e7ff;
+        color: #e2e7ff;
+    }
+    input[type="text"], textarea{
+        border: none;
+        color: #e2e7ff;
+        background-color: #e2e7ff;
+    }
+    input[type="text"]:focus, textarea:focus{
+        color: #e2e7ff;
+        outline: none;
+    }
+    #body{
+        background-color: #e2e7ff;
+    }
+    #row{
+        height: 50%;
+    }
+    .col-12 .col-sm-2 {
+        margin-bottom: 5px;
+    }
+    button {
+        font-family: "Work Sans", sans-serif;
+        font-size: 16px;
+        padding: 0.5em;
+        cursor: pointer;
+        box-sizing: border-box;
+        border-style: inset;
+        border-color: red;
+        background-color: #7eabff;
+        border-radius: 0.6em;
+        color: white;
+    }
+    button:hover {
+        background-color: #38a;
+    }
+    #dropdownMenuButton {
+        margin-top: -24.5em;
+        margin-left: 13.5em;
+    }
+    .dropdown-menu.show {
+        margin-top: 0em;
+        margin-left: -7.5em;
+        height: 315px;
+        width: 240px;
+    }
+    #indikasiSoal {
+        margin-top: 0em;
+    }
+    #indikasiSoal1 {
+        margin-top: -18.85em;
+        margin-left: 3.5em;
+    }
+    #indikasiSoal2 {
+        margin-top: -18.9em;
+        margin-left: 7em;
+    }
+    #indikasiSoal3 {
+        margin-top: -18.9em;
+        margin-left: 10.5em;
+    }
+    #demo {
+        margin-left: 24px;
+        box-sizing: border-box;
+        border-style: solid;
+        border-color: #000;
+        background-color: whitesmoke;
+        border-radius: 0.3em;
+        color: #000;
+        padding: 0.25em;
+        font-size: 16px;
+    }
+    #pendorong {
+        margin-top: 30px;
+    }
+    #slide {
+        height: 600px;
+        margin-top: -30px;
+    }
+    .question {
+        font-size: 16px;
+    }
+    #jawaban {
+        font-size: 14px;
+        margin-top: 0rem;
+        margin-bottom: 0.15rem;
+    }
+    #previous,
+    #next,
+    #submit,
+    #done {
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        padding: 0.3em;
+        cursor: pointer;
+        box-sizing: border-box;
+
+        border-style: inset;
+        border-color: gray;
+        background-color: #005bff;
+        border-radius: 0.6em;
+        color: white;
+    }
+    
+}

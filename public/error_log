@@ -1,0 +1,81 @@
+[03-Aug-2021 11:09:17 UTC] PHP Fatal error:  Interface 'JsonSerializable' not found in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 11
+[03-Aug-2021 11:09:17 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:873
+Stack trace:
+#0 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): ReflectionClass->__construct('view')
+#1 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(754): Illuminate\Container\Container->build('view')
+#2 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(141 in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[03-Aug-2021 11:09:22 UTC] PHP Fatal error:  Interface 'JsonSerializable' not found in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 11
+[03-Aug-2021 11:09:22 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:873
+Stack trace:
+#0 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): ReflectionClass->__construct('view')
+#1 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(754): Illuminate\Container\Container->build('view')
+#2 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(141 in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[03-Aug-2021 11:09:25 UTC] PHP Fatal error:  Interface 'JsonSerializable' not found in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 11
+[03-Aug-2021 11:09:25 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:873
+Stack trace:
+#0 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): ReflectionClass->__construct('view')
+#1 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(754): Illuminate\Container\Container->build('view')
+#2 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(141 in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[03-Aug-2021 11:09:40 UTC] PHP Fatal error:  Interface 'JsonSerializable' not found in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 11
+[03-Aug-2021 11:09:40 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:873
+Stack trace:
+#0 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): ReflectionClass->__construct('view')
+#1 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(754): Illuminate\Container\Container->build('view')
+#2 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(141 in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[03-Aug-2021 11:10:00 UTC] PHP Fatal error:  Interface 'JsonSerializable' not found in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 11
+[03-Aug-2021 11:10:00 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:873
+Stack trace:
+#0 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): ReflectionClass->__construct('view')
+#1 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(754): Illuminate\Container\Container->build('view')
+#2 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(141 in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[03-Aug-2021 11:10:56 UTC] PHP Fatal error:  Interface 'JsonSerializable' not found in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 11
+[03-Aug-2021 11:10:56 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:873
+Stack trace:
+#0 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): ReflectionClass->__construct('view')
+#1 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(754): Illuminate\Container\Container->build('view')
+#2 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(141 in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[03-Aug-2021 11:10:57 UTC] PHP Fatal error:  Interface 'JsonSerializable' not found in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 11
+[03-Aug-2021 11:10:57 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:873
+Stack trace:
+#0 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): ReflectionClass->__construct('view')
+#1 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(754): Illuminate\Container\Container->build('view')
+#2 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(141 in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[03-Aug-2021 11:21:31 UTC] PHP Fatal error:  Interface 'JsonSerializable' not found in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 11
+[03-Aug-2021 11:21:31 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:873
+Stack trace:
+#0 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): ReflectionClass->__construct('view')
+#1 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(754): Illuminate\Container\Container->build('view')
+#2 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(141 in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[03-Aug-2021 11:21:33 UTC] PHP Fatal error:  Interface 'JsonSerializable' not found in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 11
+[03-Aug-2021 11:21:33 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:873
+Stack trace:
+#0 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): ReflectionClass->__construct('view')
+#1 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(754): Illuminate\Container\Container->build('view')
+#2 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(141 in /home/imlx3689/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
